@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 import css from './feedBack.module.css';
 
-export class FeedBack extends Component {
-  render() {
-    const { onLeaveFeedback, options } = this.props;
+export const FeedBack = ( {onLeaveFeedback, options}) => {
+ 
+    
     return (
       <div>
         <ul className={css.listFeedBack}>
@@ -22,4 +22,4 @@ export class FeedBack extends Component {
       </div>
     );
   }
-}
+
