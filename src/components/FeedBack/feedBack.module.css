@@ -1,0 +1,28 @@
+.listFeedBack {
+display: flex;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.itemList {
+    margin-right: 15px;
+
+}
+
+.itemList:last-child {
+    margin-right: 0;
+}
+
+.btnItem {
+    border-radius: 5px;
+    border: 1px solid grey;
+    background-color: #fff;
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+}
+
+.btnItem:active {
+    background-color: rgb(0, 13, 255);
+    color: white;
+    
+}

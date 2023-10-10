@@ -1,0 +1,12 @@
+.statisticsList {
+margin-top: 20px;
+font-size: 18px;
+}
+
+.itemList {
+margin-bottom: 5px;
+}
+
+.itemList:last-child {
+    margin-bottom: 0;
+}
